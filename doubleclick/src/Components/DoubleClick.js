@@ -9,7 +9,7 @@ export default function DoubleClick(){
             <h1>Click to delete</h1>
             <ul class="lists">
                 {item.map(it=><li onClick={()=>{it.id=it.id+1; setitem(item.filter(f=>(f.id!==2)))}} >
-                    
+                         
                     {it.name}<br></br><p>Count:{it.id}</p></li>)}
             </ul>
 
