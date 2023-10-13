@@ -2,7 +2,7 @@ import { useState } from "react"
 
 
 export default function DoubleClick(){
-    const array=[{id:0,name:"Leo"},{id:0,name:"Vikram"},{id:0,name:"Kaithi"},{id:0,name:"Rolex"}];
+    const array=[{id:0,name:"Leo"},{id:1,name:"Vikram"},{id:2,name:"Kaithi"},{id:3,name:"Rolex"}];
     const [item,setitem]=useState(array);
     return(
         <div>
